@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            position: absolute;
+            /* fondo para ver quien prevalece sobre quien */
+            background: papayawhip;
+        }
+        /* cambiar el z-index entre .one y .two para ver la diferencia */
+        .one {
+            z-index: 5;
+        }
+        .two {
+            z-index: 4;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">Hello</div>
+    <div class="two">World</div>
+</body>
+</html>
