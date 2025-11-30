@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .card {
+            width: 500px;
+            height: 500px;
+            background: papayawhip;
+            border-radius: 20px;
+            /* mantener el borde de la imagen */
+            overflow: hidden;
+        }
+        /* ajustar la foto al tamaño de la card */
+        .card img {
+            width: 100%;
+        }
+        .card p {
+            text-align: center;
+        }
+        /* toma el p 1 porque cuenta los hijos de la card */
+        .card p:nth-child(2) {
+            color: turquoise;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="card">
+            <img src="https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg" alt="paisaje">
+            <p>Landscape: Sea</p>
+            <p>Around the world</p>
+        </div>
+    </section>
+</body>
+</html>
